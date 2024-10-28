@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: darkcyan;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+button {
+    background-color: crimson;
+    color: darkmagenta;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: coral;
+}
+
+#error-msg {
+    color: red;
+}

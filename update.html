@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Update Your Profile</h2>
+    <div id="update-message" class="message"></div>
+    <form id="update-form">
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+        </div>
+        <div>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+        </div>
+        <button type="submit">Update Profile</button>
+    </form>
+    <a href="display.html">View Profile</a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="update.js"></script>
+
+</body>
+</html>
+
